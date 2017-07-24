@@ -1,0 +1,48 @@
+<form action="file:///F:/Websites/PC%20Master%20Race%20Builder/index.html" method="get">
+
+	<fieldset>
+		<legend>Contact info</legend>
+		
+		<p> Client name:
+			<input type="text" name="username" size="20" maxlength="30" />
+		</p>
+		<p> Address:
+			<input type="text" name="address" size="20" maxlength="40" />
+		</p>
+	
+	</fieldset>
+	
+	<fieldset>
+		<legend>Preferences</legend>
+	
+		<label>What are you goind to use the PC for?
+		<select name="purposeOfPC">
+			<option value="work">Work</option>
+			<option value="gaming">Gaming</option>
+		</select>
+		<br />
+		
+		<label> What processor do you want?
+		<select name="processor">
+			<option value="i3">Intel i3</option>
+			<option value="i5">Intel i5</option>
+			<option value="i7">Intel i7</option>
+		</select>
+		<br />
+		
+		<label> What brand of graphics card do you prefer?
+		<select name="gpu">
+			<option value="nvidia">Nvidia</option>
+			<option value="radeon">Radeon</option>
+		</select>
+		<br />
+	
+	</fieldset>
+	
+	<p> Special comments on your order</p>
+		<textarea name="comment" cols="20" rows="5">Enter your comment... </textarea>
+	<br />
+	
+	<input type="submit" value="Submit order"/>
+	
+</form>
